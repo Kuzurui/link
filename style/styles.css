@@ -1,0 +1,131 @@
+@charset "utf-8";
+
+body{
+    color: #191919;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    font-size: 25px;
+    background-image: url(../image/bokeh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;	
+}
+nav {
+    width: 768px;
+    height: 50px;
+}
+nav li {
+    width: 768px;
+    display: inline;
+    margin-right: 58px;
+    height: 117px;
+    padding-left: 0px;
+}
+nav ul {
+    margin: auto;
+    width: 623px;
+    clear: none;
+    float: none;
+    padding-left: 145px;
+}
+
+
+
+#container {
+	width:768px;
+	height:auto;
+	margin-right:auto;
+	background-color: white;
+	
+	margin-left: auto;
+}
+
+
+header {
+    width: 768px;
+    height: 250px;
+    background-image: url(../image/header.jpg);
+    background-repeat: no-repeat;
+}
+/*Floated aside to the left */
+aside {
+    background-color: #D0D0D0;
+    width: 150px;
+    float: left;
+    height: 1600px;
+}
+article {
+    margin-bottom: 10px;
+}
+article h1 {
+	font-family: anonymous-pro, monospace;
+	font-weight: 700;
+	font-style: normal;
+	font-size:30px;
+	color:#6BE7FF;
+}
+
+aside h3 {
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-size: 23px;
+    padding-left: 23px;
+}
+
+/*Reduced width by 150px and floated to the left*/
+main {
+    width: 618px;
+    height: 1600px;
+    background-color: white;
+    float: left;
+}
+/* Clear the float so the footer shows up in the right place again*/
+footer {
+    width: 768px;
+    height: 50px;
+    background-color:green;
+    clear: left;
+    float: left;
+}
+article h1 {
+    font-family: "font-family: bebas-kai", "sans-serif;";
+    padding-left: 3px;
+    color: #6BE7FF;
+}
+article img {
+    float: right;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+article p {
+    font-family: giddyup-std, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+    font-size: 17px;
+    padding-left: 5px;
+    padding-right: 29px;
+}
+.magic {
+    float: left;
+}
+
+
+.magic {
+}
+
+nav a:link {
+    color: #6BE7FF;
+	border-radius:10px;
+}
+nav a:visited {
+    color: #94005D;
+}
+nav a:hover {
+    color: #FFFFFF;
+	background-color:#6BE7FF;
+	padding:10px;
+	border-radius:20px;
+}
+nav a:active {
+    color: #CC6306;
+}
